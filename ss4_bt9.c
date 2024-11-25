@@ -27,7 +27,7 @@ int main(int argc, const char * argv[]) {
             }
         
         }
-         
+         //hello
     }else if(year %100 ==0){
         if (year % 400 == 0){
             if(month == 1||month ==3||month ==5||month ==7||month ==8||month ==10||month ==12){
@@ -62,10 +62,11 @@ int main(int argc, const char * argv[]) {
                 }else{
                     printf("ngay thang nam hop le");
                 }
-            
+                
             }
         }
-            
+    }else if (day>31||month>12){
+        printf("ngay thang nam khong hop le");
     }else{
         if(month == 1||month ==3||month ==5||month ==7||month ==8||month ==10||month ==12){
             if(day<=31){
